@@ -6,7 +6,7 @@
     let xhr = new XMLHttpRequest();
     xhr.responseType = 'json';
 
-    xhr.open('GEt', '/data/employees.json');
+    xhr.open('GEt', '/master/data/employees.json');
     xhr.onreadystatechange = function () {
 
         if (xhr.readyState != 4) {
