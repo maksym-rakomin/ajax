@@ -6,7 +6,7 @@
     let xhr = new XMLHttpRequest();
     xhr.responseType = 'json';
 
-    xhr.open('GET', '/data/employees.json');
+    xhr.open('GET', 'https://maksym-rakomin.github.io/ajax/data/employees.json');
     xhr.onreadystatechange = function () {
 
         if (xhr.readyState != 4) {
